@@ -1,0 +1,136 @@
+body{
+  background-color: red;
+}
+.b-header {
+  &__div__img {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__img {
+    width: 500px;
+  }
+
+  &__div__inputs {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__input {
+    width: 300px;
+    height: 25px;
+    border-style: dashed;
+    border-color: black;
+    background-color:rgb(138, 129, 129);
+    color: white;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  &__select {
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+::placeholder{color:white}
+.b-main {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__div {
+    width: 200px;
+    margin-bottom:20px;
+    &__p{
+      font-weight: 800;
+    }
+    &__div-contenido{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-style: solid;
+      border-color: white;
+      &__h2{
+        margin-bottom: 1px;
+      }
+      
+    }
+    &__div-tipo{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 2px
+;
+      &__p{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2px;
+        font-weight: 800;
+      }
+    }
+  }
+
+}
+.bug{
+  background-color: olive;
+}
+.dark{
+  background-color: rgb(34, 32, 32);
+}
+.dragon{
+  background-color: #45919b
+}
+.electric{
+  background-color: yellow;
+}
+.fairy{
+  background-color: rgb(218, 58, 218);
+}
+.fighting{
+  background-color: orangered;
+}
+.fire{
+  background-color: red;
+}
+.flying{
+  background-color:#9bb9d3;
+}
+.ghost{
+  background-color: #5602f1;
+}
+.grass{
+  background-color: green;
+}
+.ground{
+  background-color: rgb(199, 102, 64);
+}
+.ice{
+  background-color: rgb(168, 231, 240);
+}
+.normal{
+  background-color: #76565c;
+}
+.poison{
+  background-color: #602c8e;
+}
+.psychic{
+  background-color: rgb(221, 8, 221);
+}
+.rock{
+  background-color: #481809;
+}
+.steel{
+  background-color: grey;
+}
+.water{
+  background-color: #1054e6;
+}
