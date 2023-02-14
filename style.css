@@ -97,7 +97,7 @@ body {
 }
 
 .bug {
-  background-color: olive;
+  background-color: #9de013;
   background-image: url(bicho.png);
   background-size: 230px;
   background-position: center;
@@ -113,7 +113,7 @@ body {
 }
 
 .dragon {
-  background-color: #45919b;
+  background-color: #016ada;
   background-image: url(dragon.png);
   background-size: 230px;
   background-position: center;
@@ -121,7 +121,7 @@ body {
 }
 
 .electric {
-  background-color: yellow;
+  background-color: #ffe528;
   background-image: url(electrico.png);
   background-size: 230px;
   background-position: center;
@@ -129,7 +129,7 @@ body {
 }
 
 .fairy {
-  background-color: rgb(218, 58, 218);
+  background-color: #f792f2;
   background-image: url(hada.png);
   background-size: 230px;
   background-position: center;
@@ -137,7 +137,7 @@ body {
 }
 
 .fighting {
-  background-color: orangered;
+  background-color: #de3464;
   background-image: url(lucha.png);
   background-size: 230px;
   background-position: center;
@@ -145,7 +145,7 @@ body {
 }
 
 .fire {
-  background-color: red;
+  background-color: #ffa94b;
   background-image: url(fuego.png);
   background-size: 230px;
   background-position: center;
@@ -161,7 +161,7 @@ body {
 }
 
 .ghost {
-  background-color: #5602f1;
+  background-color: #3f60c7;
   background-image: url(fantasma.png);
   background-size: 230px;
   background-position: center;
@@ -169,7 +169,7 @@ body {
 }
 
 .grass {
-  background-color: green;
+  background-color: #55d749;
   background-image: url(planta.png);
   background-size: 230px;
   background-position: center;
@@ -177,7 +177,7 @@ body {
 }
 
 .ground {
-  background-color: rgb(199, 102, 64);
+  background-color: #f4702b;
   background-image: url(tierra.png);
   background-size: 230px;
   background-position: center;
@@ -185,7 +185,7 @@ body {
 }
 
 .ice {
-  background-color: rgb(168, 231, 240);
+  background-color: #68e5d6;
   background-image: url(hielo.png);
   background-size: 230px;
   background-position: center;
@@ -193,7 +193,7 @@ body {
 }
 
 .normal {
-  background-color: #76565c;
+  background-color: #97a4b2;
   background-image: url(normal.png);
   background-size: 230px;
   background-position: center;
@@ -201,7 +201,7 @@ body {
 }
 
 .poison {
-  background-color: #602c8e;
+  background-color: #bd5ce3;
   background-image: url(veneno.png);
   background-size: 230px;
   background-position: center;
@@ -209,7 +209,7 @@ body {
 }
 
 .psychic {
-  background-color: rgb(221, 8, 221);
+  background-color: #ff6d71;
   background-image: url(psiquico.png);
   background-size: 230px;
   background-position: center;
@@ -217,7 +217,7 @@ body {
 }
 
 .rock {
-  background-color: #481809;
+  background-color: #decb8d;
   background-image: url(roca.png);
   background-size: 230px;
   background-position: center;
@@ -233,7 +233,7 @@ body {
 }
 
 .water {
-  background-color: #1054e6;
+  background-color: #3598ee;
   background-image: url(agua.png);
   background-size: 230px;
   background-position: center;
