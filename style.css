@@ -2,6 +2,19 @@ body {
   background-color: red;
 }
 
+.width {
+  padding-top: 0px;
+  width: 90%;
+}
+
+.width_div {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .b-header__div__img {
   margin-bottom: 40px;
   display: flex;
@@ -21,7 +34,6 @@ body {
   height: 25px;
   border-style: dashed;
   border-color: black;
-  background-color: rgb(138, 129, 129);
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -32,14 +44,6 @@ body {
   border-width: 2px;
   border-color: rgb(0, 0, 0);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-::-moz-placeholder {
-  color: white;
-}
-
-::placeholder {
-  color: white;
 }
 
 .b-main {
@@ -53,7 +57,7 @@ body {
   margin-bottom: 20px;
 }
 .b-main__div__p {
-  font-weight: 800;
+  font-weight: 1000;
 }
 .b-main__div__div-contenido {
   display: flex;
@@ -62,9 +66,13 @@ body {
   flex-direction: column;
   border-style: solid;
   border-color: white;
+  height: 400px;
 }
-.b-main__div__div-contenido__h2 {
-  margin-bottom: 1px;
+.b-main__div__div-contenido__divIPT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .b-main__div__div-tipo {
   display: flex;
@@ -90,72 +98,144 @@ body {
 
 .bug {
   background-color: olive;
+  background-image: url(bicho.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .dark {
   background-color: rgb(34, 32, 32);
+  background-image: url(siniestro.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .dragon {
   background-color: #45919b;
+  background-image: url(dragon.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .electric {
   background-color: yellow;
+  background-image: url(electrico.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fairy {
   background-color: rgb(218, 58, 218);
+  background-image: url(hada.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fighting {
   background-color: orangered;
+  background-image: url(lucha.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .fire {
   background-color: red;
+  background-image: url(fuego.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .flying {
   background-color: #9bb9d3;
+  background-image: url(volador.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .ghost {
   background-color: #5602f1;
+  background-image: url(fantasma.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .grass {
   background-color: green;
+  background-image: url(planta.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .ground {
   background-color: rgb(199, 102, 64);
+  background-image: url(tierra.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .ice {
   background-color: rgb(168, 231, 240);
+  background-image: url(hielo.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .normal {
   background-color: #76565c;
+  background-image: url(normal.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .poison {
   background-color: #602c8e;
+  background-image: url(veneno.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .psychic {
   background-color: rgb(221, 8, 221);
+  background-image: url(psiquico.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .rock {
   background-color: #481809;
+  background-image: url(roca.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .steel {
   background-color: grey;
+  background-image: url(acero.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .water {
   background-color: #1054e6;
+  background-image: url(agua.png);
+  background-size: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
