@@ -20,7 +20,7 @@ body{
   }
 
   &__input {
-    width: 300px;
+    width: 500px;
     height: 25px;
     border-style: dashed;
     border-color: black;
@@ -80,6 +80,15 @@ body{
   }
 
 }
+.b-footer__div{
+  display: flex;
+  justify-content: center;
+  &__h1{
+    font-size: 60pt;
+    color: white;
+    text-decoration-line: underline;
+  }
+}
 .bug{
   background-color: olive;
 }
@@ -134,3 +143,4 @@ body{
 .water{
   background-color: #1054e6;
 }
+

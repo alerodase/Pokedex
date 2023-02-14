@@ -9,8 +9,7 @@ async function getAllPokemon() {
   const data = await response.json();
   return data
 }
-// const todosLosPokemon=getAllPokemon()
-// console.log(todosLosPokemon);
+
 async function pintarTodosLosPokemon(){
   const todosLosPokemon=await getAllPokemon()
   todosLosPokemon.results.forEach(async pokemon=>{
@@ -27,14 +26,17 @@ inputNombre.addEventListener('keyup',async()=>{
   });
 })
 
-inputNombre.addEventListener('keyup',async()=>{
-  main.innerHTML=''
-  const datos=await getAllPokemon()
-  const datosFiltrados=datos.results.filter(x=>x.name.includes(inputNombre.value))
-  datosFiltrados.forEach(async x => {
-    await pintarUnPokemon(x.name)
-  });
-})
+
+
+
+// inputNombre.addEventListener('keyup',async()=>{
+//   main.innerHTML=''
+//   const datos=await getAllPokemon()
+//   const datosFiltrados=datos.results.filter(x=>x.name.includes(inputNombre.value))
+//   datosFiltrados.forEach(async x => {
+//     await pintarUnPokemon(x.name)
+//   });
+// })
 //guardar en un array de objetos nombre + tipo,
 //crear un addeventlistener combobox
 //llamar a pintarunpokemon(nombre del tipo elegido)
@@ -42,17 +44,17 @@ inputNombre.addEventListener('keyup',async()=>{
 console.log(getAllPokemon());
 
 
-async function getPokemonData(pokemonName) {
+async function getPokemonData(pokemonId) {
   const response = await fetch(
-    `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+    `https://pokeapi.co/api/v2/pokemon/${pokemonId}`
   );
   const data = await response.json();
   return data;
 }
-console.log(getPokemonData('bulbasaur'));
+console.log(getPokemonData(1));
 
-async function pintarUnPokemon(pokemonName){
-  const pokemonData= await getPokemonData(pokemonName)
+async function pintarUnPokemon(pokemonId){
+  const pokemonData= await getPokemonData(pokemonId)
   const divContenedor=document.createElement('div')
   const divContenido2=document.createElement('div')
   const h2=document.createElement('h2')
